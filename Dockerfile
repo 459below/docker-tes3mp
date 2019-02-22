@@ -12,4 +12,4 @@ RUN tar -xvf /tmp/tes3mp-server.tar.gz
 RUN rm -rf /var/lib/apt/lists/* /tmp/tes3mp-server.tar.gz
 
 EXPOSE 25565/udp
-CMD ["/TES3MP/tes3mp-server"]
+CMD ["/TES3MP-server/tes3mp-server"]
