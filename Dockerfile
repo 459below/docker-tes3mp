@@ -5,7 +5,7 @@ RUN apt update \
   libluajit-5.1-2 \
   libgl1-mesa-glx
 
-ADD https://github.com/TES3MP/openmw-tes3mp/releases/download/0.7.0-alpha/tes3mp-server-GNU+Linux-x86_64-release-0.7.0-alpha-0df32accca-edbcae5b0e.tar.gz /tmp/tes3mp-server.tar.gz 
+ADD https://github.com/TES3MP/openmw-tes3mp/releases/download/0.7.0-alpha/tes3mp-server-GNU+Linux-x86_64-release-0.7.0-alpha-abc4090a0f-01d297f5c6.tar.gz /tmp/tes3mp-server.tar.gz 
 
 RUN tar -xvf /tmp/tes3mp-server.tar.gz
 
